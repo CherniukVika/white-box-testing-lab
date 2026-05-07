@@ -1,0 +1,12 @@
+[run]
+branch = True
+source = .
+parallel = True
+
+[report]
+show_missing = True
+skip_covered = False
+omit =
+    tests/*
+    */__pycache__/*
+    setup.py
